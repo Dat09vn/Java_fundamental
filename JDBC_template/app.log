@@ -1,0 +1,143 @@
+2026-08-23T09:19:58.318+07:00  INFO 15132 --- [jpa] [main] com.example.jpa.JpaApplication           : Starting JpaApplication using Java 17.0.19 with PID 15132 (/home/dat123/Desktop/Java_123/jpa/bin/main started by dat123 in /home/dat123/Desktop/Java_123/jpa)
+2026-08-23T09:19:58.337+07:00  INFO 15132 --- [jpa] [main] com.example.jpa.JpaApplication           : No active profile set, falling back to 1 default profile: "default"
+2026-08-23T09:19:59.341+07:00  INFO 15132 --- [jpa] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-08-23T09:19:59.366+07:00  INFO 15132 --- [jpa] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 JDBC repository interfaces.
+2026-08-23T09:20:00.117+07:00  INFO 15132 --- [jpa] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-08-23T09:20:00.135+07:00  INFO 15132 --- [jpa] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-23T09:20:00.136+07:00  INFO 15132 --- [jpa] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-23T09:20:00.220+07:00  INFO 15132 --- [jpa] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1784 ms
+2026-08-23T09:20:00.688+07:00  INFO 15132 --- [jpa] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-08-23T09:20:01.624+07:00  INFO 15132 --- [jpa] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@4f169009
+2026-08-23T09:20:01.628+07:00  INFO 15132 --- [jpa] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-08-23T09:20:02.865+07:00  INFO 15132 --- [jpa] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-08-23T09:20:02.874+07:00  INFO 15132 --- [jpa] [main] com.example.jpa.JpaApplication           : Started JpaApplication in 5.223 seconds (process running for 5.809)
+2026-08-23T09:20:02.929+07:00  INFO 15132 --- [jpa] [main] o.s.b.b.a.JobLauncherApplicationRunner   : Running default command line with: []
+2026-08-23T09:20:22.143+07:00  INFO 15132 --- [jpa] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-23T09:20:22.143+07:00  INFO 15132 --- [jpa] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-08-23T09:20:22.146+07:00  INFO 15132 --- [jpa] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-08-23T09:21:04.580+07:00  INFO 15132 --- [jpa] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-23T09:21:04.590+07:00  INFO 15132 --- [jpa] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-08-23T09:21:04.595+07:00  INFO 15132 --- [jpa] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-08-23T09:21:04.614+07:00  INFO 15132 --- [jpa] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-08-23T09:21:12.544+07:00  INFO 16409 --- [jpa] [main] com.example.jpa.JpaApplication           : Starting JpaApplication using Java 17.0.19 with PID 16409 (/home/dat123/Desktop/Java_123/jpa/bin/main started by dat123 in /home/dat123/Desktop/Java_123/jpa)
+2026-08-23T09:21:12.549+07:00  INFO 16409 --- [jpa] [main] com.example.jpa.JpaApplication           : No active profile set, falling back to 1 default profile: "default"
+2026-08-23T09:21:13.412+07:00  INFO 16409 --- [jpa] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-08-23T09:21:13.433+07:00  INFO 16409 --- [jpa] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 JDBC repository interfaces.
+2026-08-23T09:21:13.885+07:00  INFO 16409 --- [jpa] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-08-23T09:21:13.901+07:00  INFO 16409 --- [jpa] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-23T09:21:13.902+07:00  INFO 16409 --- [jpa] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-23T09:21:13.967+07:00  INFO 16409 --- [jpa] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1322 ms
+2026-08-23T09:21:14.238+07:00  INFO 16409 --- [jpa] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-08-23T09:21:14.696+07:00  INFO 16409 --- [jpa] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@4dad0eed
+2026-08-23T09:21:14.698+07:00  INFO 16409 --- [jpa] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-08-23T09:21:15.688+07:00  INFO 16409 --- [jpa] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-08-23T09:21:15.702+07:00  INFO 16409 --- [jpa] [main] com.example.jpa.JpaApplication           : Started JpaApplication in 3.783 seconds (process running for 4.248)
+2026-08-23T09:21:15.706+07:00  INFO 16409 --- [jpa] [main] o.s.b.b.a.JobLauncherApplicationRunner   : Running default command line with: []
+2026-08-23T09:21:17.179+07:00  INFO 16554 --- [jpa] [main] com.example.jpa.JpaApplication           : Starting JpaApplication using Java 17.0.19 with PID 16554 (/home/dat123/Desktop/Java_123/jpa/bin/main started by dat123 in /home/dat123/Desktop/Java_123/jpa)
+2026-08-23T09:21:17.196+07:00  INFO 16554 --- [jpa] [main] com.example.jpa.JpaApplication           : No active profile set, falling back to 1 default profile: "default"
+2026-08-23T09:21:17.268+07:00  INFO 16555 --- [jpa] [main] com.example.jpa.JpaApplication           : Starting JpaApplication using Java 17.0.19 with PID 16555 (/home/dat123/Desktop/Java_123/jpa/bin/main started by dat123 in /home/dat123/Desktop/Java_123/jpa)
+2026-08-23T09:21:17.274+07:00  INFO 16555 --- [jpa] [main] com.example.jpa.JpaApplication           : No active profile set, falling back to 1 default profile: "default"
+2026-08-23T09:21:18.271+07:00  INFO 16554 --- [jpa] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-08-23T09:21:18.299+07:00  INFO 16554 --- [jpa] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 0 JDBC repository interfaces.
+2026-08-23T09:21:18.352+07:00  INFO 16555 --- [jpa] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-08-23T09:21:18.383+07:00  INFO 16555 --- [jpa] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 0 JDBC repository interfaces.
+2026-08-23T09:21:18.853+07:00  INFO 16554 --- [jpa] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-08-23T09:21:18.870+07:00  INFO 16554 --- [jpa] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-23T09:21:18.871+07:00  INFO 16554 --- [jpa] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-23T09:21:18.921+07:00  INFO 16555 --- [jpa] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-08-23T09:21:18.928+07:00  INFO 16554 --- [jpa] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1648 ms
+2026-08-23T09:21:18.942+07:00  INFO 16555 --- [jpa] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-23T09:21:18.942+07:00  INFO 16555 --- [jpa] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-23T09:21:19.006+07:00  INFO 16555 --- [jpa] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1637 ms
+2026-08-23T09:21:19.265+07:00  INFO 16554 --- [jpa] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-08-23T09:21:19.310+07:00  INFO 16555 --- [jpa] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-08-23T09:21:19.749+07:00  INFO 16554 --- [jpa] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@79d3473e
+2026-08-23T09:21:19.750+07:00  INFO 16554 --- [jpa] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-08-23T09:21:19.809+07:00  INFO 16555 --- [jpa] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@3a401749
+2026-08-23T09:21:19.811+07:00  INFO 16555 --- [jpa] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-08-23T09:21:20.620+07:00  WARN 16554 --- [jpa] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-08-23T09:21:20.626+07:00  INFO 16554 --- [jpa] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-08-23T09:21:20.684+07:00  INFO 16554 --- [jpa] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-08-23T09:21:20.699+07:00  INFO 16554 --- [jpa] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-08-23T09:21:20.708+07:00  WARN 16555 --- [jpa] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-08-23T09:21:20.712+07:00  INFO 16555 --- [jpa] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-08-23T09:21:20.719+07:00 ERROR 16554 --- [jpa] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2026-08-23T09:21:20.813+07:00  INFO 16555 --- [jpa] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-08-23T09:21:20.829+07:00  INFO 16555 --- [jpa] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-08-23T09:21:20.847+07:00 ERROR 16555 --- [jpa] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2026-08-23T09:21:27.183+07:00  INFO 16409 --- [jpa] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-23T09:21:27.189+07:00  INFO 16409 --- [jpa] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-08-23T09:21:27.194+07:00  INFO 16409 --- [jpa] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-08-23T09:21:27.220+07:00  INFO 16409 --- [jpa] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-08-23T09:21:36.871+07:00  INFO 17049 --- [jpa] [main] com.example.jpa.JpaApplication           : Starting JpaApplication using Java 17.0.19 with PID 17049 (/home/dat123/Desktop/Java_123/jpa/bin/main started by dat123 in /home/dat123/Desktop/Java_123/jpa)
+2026-08-23T09:21:36.875+07:00  INFO 17049 --- [jpa] [main] com.example.jpa.JpaApplication           : No active profile set, falling back to 1 default profile: "default"
+2026-08-23T09:21:37.707+07:00  INFO 17049 --- [jpa] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-08-23T09:21:37.731+07:00  INFO 17049 --- [jpa] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 0 JDBC repository interfaces.
+2026-08-23T09:21:38.190+07:00  INFO 17049 --- [jpa] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-08-23T09:21:38.210+07:00  INFO 17049 --- [jpa] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-23T09:21:38.211+07:00  INFO 17049 --- [jpa] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-23T09:21:38.267+07:00  INFO 17049 --- [jpa] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1308 ms
+2026-08-23T09:21:38.563+07:00  INFO 17049 --- [jpa] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-08-23T09:21:38.925+07:00  INFO 17049 --- [jpa] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@7d528cf7
+2026-08-23T09:21:38.927+07:00  INFO 17049 --- [jpa] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-08-23T09:21:39.662+07:00  INFO 17049 --- [jpa] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-08-23T09:21:39.674+07:00  INFO 17049 --- [jpa] [main] com.example.jpa.JpaApplication           : Started JpaApplication in 3.367 seconds (process running for 3.721)
+2026-08-23T09:21:39.679+07:00  INFO 17049 --- [jpa] [main] o.s.b.b.a.JobLauncherApplicationRunner   : Running default command line with: []
+2026-08-23T09:21:53.490+07:00  INFO 17049 --- [jpa] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-23T09:21:53.491+07:00  INFO 17049 --- [jpa] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-08-23T09:21:53.494+07:00  INFO 17049 --- [jpa] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-08-23T09:39:19.259+07:00  INFO 17049 --- [jpa] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-23T09:39:19.265+07:00  INFO 17049 --- [jpa] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-08-23T09:39:19.270+07:00  INFO 17049 --- [jpa] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-08-23T09:39:19.288+07:00  INFO 17049 --- [jpa] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-08-23T15:13:14.123+07:00  INFO 119317 --- [jpa] [main] c.e.j.JDBCTemplateApplication            : Starting JDBCTemplateApplication using Java 17.0.19 with PID 119317 (/home/dat123/Desktop/Java_123/jpa/bin/main started by dat123 in /home/dat123/Desktop/Java_123/jpa)
+2026-08-23T15:13:14.127+07:00  INFO 119317 --- [jpa] [main] c.e.j.JDBCTemplateApplication            : No active profile set, falling back to 1 default profile: "default"
+2026-08-23T15:13:14.919+07:00  INFO 119317 --- [jpa] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-08-23T15:13:14.941+07:00  INFO 119317 --- [jpa] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 JDBC repository interfaces.
+2026-08-23T15:13:15.399+07:00  INFO 119317 --- [jpa] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-08-23T15:13:15.416+07:00  INFO 119317 --- [jpa] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-23T15:13:15.417+07:00  INFO 119317 --- [jpa] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-23T15:13:15.474+07:00  INFO 119317 --- [jpa] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1269 ms
+2026-08-23T15:13:15.844+07:00  INFO 119317 --- [jpa] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-08-23T15:13:16.475+07:00  INFO 119317 --- [jpa] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@27e2287c
+2026-08-23T15:13:16.477+07:00  INFO 119317 --- [jpa] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-08-23T15:13:17.533+07:00  INFO 119317 --- [jpa] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-08-23T15:13:17.540+07:00  INFO 119317 --- [jpa] [main] c.e.j.JDBCTemplateApplication            : Started JDBCTemplateApplication in 4.013 seconds (process running for 4.559)
+2026-08-23T15:13:17.545+07:00  INFO 119317 --- [jpa] [main] o.s.b.b.a.JobLauncherApplicationRunner   : Running default command line with: []
+2026-08-23T15:13:32.395+07:00  INFO 119317 --- [jpa] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-23T15:13:32.396+07:00  INFO 119317 --- [jpa] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-08-23T15:13:32.399+07:00  INFO 119317 --- [jpa] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-08-23T15:26:23.148+07:00  INFO 119317 --- [jpa] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-23T15:26:23.185+07:00  INFO 119317 --- [jpa] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-08-23T15:26:23.197+07:00  INFO 119317 --- [jpa] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-08-23T15:26:24.466+07:00  INFO 119317 --- [jpa] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

@@ -1,0 +1,16 @@
+2026-08-30T20:36:00.192+07:00  INFO 103900 --- [basic_log] [main] c.example.basic_log.BasicLogApplication  : Starting BasicLogApplication using Java 17.0.20 with PID 103900 (/home/dat123/Desktop/Java_123/Log/basic_log/bin/main started by dat123 in /home/dat123/Desktop/Java_123/Log/basic_log)
+2026-08-30T20:36:00.196+07:00 DEBUG 103900 --- [basic_log] [main] c.example.basic_log.BasicLogApplication  : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-08-30T20:36:00.197+07:00  INFO 103900 --- [basic_log] [main] c.example.basic_log.BasicLogApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-08-30T20:36:01.054+07:00  INFO 103900 --- [basic_log] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-08-30T20:36:01.068+07:00  INFO 103900 --- [basic_log] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-30T20:36:01.068+07:00  INFO 103900 --- [basic_log] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-08-30T20:36:01.115+07:00  INFO 103900 --- [basic_log] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 851 ms
+2026-08-30T20:36:01.477+07:00  INFO 103900 --- [basic_log] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-08-30T20:36:01.484+07:00  INFO 103900 --- [basic_log] [main] c.example.basic_log.BasicLogApplication  : Started BasicLogApplication in 1.825 seconds (process running for 2.252)
+2026-08-30T20:36:29.177+07:00  INFO 103900 --- [basic_log] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-30T20:36:29.178+07:00  INFO 103900 --- [basic_log] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-08-30T20:36:29.180+07:00  INFO 103900 --- [basic_log] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-08-30T20:36:29.224+07:00  INFO 103900 --- [basic_log] [http-nio-8080-exec-1] com.example.basic_log.UserController     : Info: Get user id=1
+2026-08-30T20:36:29.225+07:00 DEBUG 103900 --- [basic_log] [http-nio-8080-exec-1] com.example.basic_log.UserController     : Debug: Get user id=1
+2026-08-30T20:38:12.461+07:00  INFO 103900 --- [basic_log] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-30T20:38:12.468+07:00  INFO 103900 --- [basic_log] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
