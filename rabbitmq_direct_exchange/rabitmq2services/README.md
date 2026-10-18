@@ -28,9 +28,13 @@ Mở hai terminal:
 Gửi message:
 
 ```bash
-curl -X POST http://localhost:8081/messages \
-  -H 'Content-Type: application/json' \
-  -d '{"text":"Hello from producer"}'
+curl -X POST \
+  "http://localhost:8081/direct/created?message=Order1001"
+```
+
+```bash
+curl -X POST \
+  "http://localhost:8081/direct/cancelled?message=Order1001"
 ```
 
 Trong log của `consumer-service` sẽ có:
