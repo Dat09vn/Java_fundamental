@@ -1,0 +1,3 @@
+rootProject.name = 'rabitmq2services'
+
+include 'producer-service', 'consumer-service'
